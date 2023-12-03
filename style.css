@@ -1,0 +1,263 @@
+
+*{
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.anton-font{
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+}
+.shadow-custom{
+   text-shadow: 2px 2px 2px #016EA7;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(The_Seasons_Light.woff);
+}
+.title-logo{
+  font-family: myFirstFont;
+}
+.sub-title-logo{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 12px;
+}
+/*Header background*/
+#navigation{
+  background: rgb(102,120,121);
+  background: linear-gradient(90deg, #06B8C7 0%, #06CBD1 49%, #016EA7 100%);
+}
+/*Section 1 background*/
+#clr-nav{
+  background: rgb(102,120,121);
+  background: linear-gradient(90deg, #06B8C7 0%, #06CBD1 49%, #016EA7 100%);
+  color: white;
+}
+/*Section 2 background*/
+#reviews{
+  font-size: 10px;
+  color: black;
+}
+
+ul li a{
+  color: white !important;
+  font-weight: bold;
+  margin-right: 5px;
+  white-space: nowrap;
+  width:fit-content;
+}
+ul li a:hover{
+  border-bottom: 2px solid #016EA7;
+  width:fit-content;
+}
+ul li .active{
+  border-bottom: 2px solid #016EA7;
+  width:fit-content;
+}
+
+#imagebg {
+  position: relative;
+  text-align: center;
+}
+.text-design{
+  font-size: 14px;
+}
+.margin-10{
+  margin-top: 20px;
+}
+#text1{
+  margin-top:80px;
+}
+#text2{
+  margin-top:80px;
+  position: relative;
+  text-align: center;
+}
+#text3{
+  margin-top:50px;
+  font-size:15px;
+}
+.text-light{
+  text-decoration: none !important;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.hero{
+  height: 1000px !important;
+}
+
+#intouch{
+ background: #37a6bb
+}
+#footer{
+
+  background-color: rgb(9,9,121);
+  height: 400px;
+}
+#view-more-blue{
+  padding: 10px 15px !important;
+  font-size: 16px;
+  border: 1px solid #016EA7;
+  color: white;
+  background: #37a6bb;
+
+}
+#view-more-white{
+  padding: 10px 15px !important;
+  font-size: 16px;
+  border: 1px solid #016EA7;
+  color: #016EA7;
+  background: white;
+}
+.color-5{
+  color: #016EA7 !important;
+  font-weight: bold;
+}
+#view-more-blue:hover{
+  border: none;
+}
+#view-more-white:hover{
+  border: none;
+}
+#view-more-blue:focus{
+  border: none;
+}
+#view-more-white:focus{
+  border: none;
+}
+#blue{
+  background-color: rgb(9,9,121);
+  background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(69,62,190,1) 52%, rgba(33,13,185,1) 100%);
+  color: white;
+}
+
+#blue-2{
+  background-color: white;
+  color: black;
+}
+#blue-login{
+  background-color: rgb(9,9,121);
+  background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(69,62,190,1) 52%, rgba(33,13,185,1) 100%);
+}
+#blue-line{
+  border-bottom: 10px solid #BAF0E6;
+}
+
+#orange-line{
+  border-bottom: 10px solid #06CBD1;
+}
+
+.dropdown-menu {
+  background-color: #016EA7!important;
+  color: white;
+}
+.dropdown-item{
+  font-weight: bold !important;
+  margin-left: 10px;
+}
+.dropdown-item:hover{
+  background-color: #016EA7 !important;
+}
+#light-blue{
+  color: #7DF9FF !important;
+}
+#link-logo{
+  margin-bottom:10px;
+  border-radius:5px;
+  margin-right:5px;
+}
+#nav-hide{
+  font-size: 25px;
+  font-weight:bold;
+  margin-top:-8px;
+}
+#margin-10{
+  margin-bottom: 20px;
+}
+#image-project{
+
+}
+.image-fixed-size{
+  width: 100% !important;
+  height: 350px;
+  object-fit: cover;
+}
+.image-fixed-size-250{
+  width: 100% !important;
+  height: 200px;
+  object-fit: cover;
+}
+.image-fixed-size-2{
+  width: 100% !important;
+  height: 500px;
+  object-fit: cover;
+}
+#navigator-image{
+  width:20px !important;
+  background-color:#016EA7;
+  height:20px;
+  border-radius:50%;
+}
+.projs{
+  margin-left:-5px;
+  float: left;
+  font-size: 15px;
+}
+.p-default{
+  font-size: 14px !important;
+}
+.responsive-image{
+  width: 100%;
+  height: auto;"
+}
+.textDesign{
+  font-size: 14px;
+  font-weight: normal;
+}
+.image-fixed-size{
+  width: 100% !important;
+  height: 350px;
+  object-fit: cover;
+}
+.image-backround-services1{
+  background: url(images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+}
+.text-shadow-1{
+  text-shadow: 1px 1px white;
+}
+#login-btn{
+  padding: 10px 15px !important;
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  color: #016EA7;
+  background: white;
+  border-color: #BAF0E6;
+}
+#login-btn:hover{
+  color: WHITE;
+  background: #37a6bb;
+
+}
+#login-btn:focus{
+  color: WHITE;
+  background: #37a6bb;
+}
+.width-100{
+  width: 100%;
+}
+.p-0{
+  padding:0px !important;
+}
+.word-break-all{
+  word-break: break-all !important;
+}
+.carousel-item {
+   transition: transform 3s ease-in-out;
+ }
+ .carousel-fade .active.carousel-item-start,
+ .carousel-fade .active.carousel-item-end {
+   transition: opacity 0s 3s;
+ }
